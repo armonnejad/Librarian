@@ -1,0 +1,25 @@
+{
+  "name": "librarian",
+  "version": "1.0.0",
+  "description": "Game recommendation engine for steam based on what's in your library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armonnejad/Librarian.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/armonnejad/Librarian/issues"
+  },
+  "homepage": "https://github.com/armonnejad/Librarian#readme",
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "allowScripts": {}
+}

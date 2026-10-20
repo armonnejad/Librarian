@@ -1,0 +1,1 @@
+const loginMessage: string = "SIGN IN WITH ACCOUNT NAME";
