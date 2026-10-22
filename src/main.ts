@@ -1,11 +1,11 @@
-import { launchSteam } from "./steam.js";
+import * as steam from "./steam.js";
+import * as uia from "./uia.js";
 
 async function main(): Promise<void> {
-  console.log("Launching Steam...");
-
-  launchSteam();
-
-  console.log("Launch command submitted.");
+  await steam.launchSteam();
+  const result = await steam.inspectSteam();
+  console.log(result);
+  steam.closeSteam();
 }
 
 main().catch((error: unknown) => {
